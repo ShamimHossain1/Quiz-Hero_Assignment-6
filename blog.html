@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer the Questions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <header class="h-16 flex items-center shadow-sm">
+        <nav class="flex justify-between items-center w-9/12 mx-auto">
+          <div class="text-zinc-800 font-bold uppercase">
+            <h1 class="text-lg">Quiz <span class="text-green-700">HERO</span></h1>
+            <p class="text-[10px] font-normal capitalize -mt-1">
+              Get ready to Quiz and be amazed!
+            </p>
+          </div>
+          <button class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white">
+            <a href="./index.html">Home</a>
+          </button>
+        </nav>
+      </header>
+
+
+    <main class="mx-auto w-4/5 lg:w-2/3">
+        <h1 class="bg-cyan-300 text-slate-600 text-center font-bold lg:text-5xl text-2xl my-10 py-5 rounded-2xl">Question
+            and Answer</h1>
+        <div class="bg-cyan-300 text-slate-600 lg:font-semibold  my-5 py-5 px-5 lg:px-16 rounded-2xl">
+
+            <h1 class="lg:text-2xl text-lg font-semibold  mb-3">1) Difference between map, filter, foreach, find.</h1>
+            <p>Ans: map creates a new array from calling a function for every array element. <br>
+                filter returns an array containing the element that satisfies the condition. <br>forEach provide callback function once for each element in an array in ascending-index order.<br>  find returns the element itself that satisfies the condition.
+            </p>
+        </div>
+        <div class="bg-cyan-300 text-slate-600 lg:font-semibold  my-5 py-5 px-5 lg:px-16 rounded-2xl">
+
+            <h1 class="lg:text-2xl text-lg font-semibold  mb-3">2) Difference between local storage, session storage, and cookies.</h1>
+            <p>Ans: Local storage is not session based,need to be deleted via JS or manually. <br>
+                Session storage is session based and working per window or tab. <br>
+                Cookies expiry depends on the setting and working per window or tab. 
+            </p>
+        </div>
+        <div class="bg-cyan-300 text-slate-600 lg:font-semibold  my-5 py-5 px-5 lg:px-16 rounded-2xl">
+
+            <h1 class="lg:text-2xl text-lg font-semibold  mb-3">3) What is event loop and how it's work?</h1>
+            <p>Ans: JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.</p>
+        </div>
+        <div class="bg-cyan-300 text-slate-600 lg:font-semibold  my-5 mb-10 py-6 px-5 lg:px-16 rounded-2xl">
+
+            <h1 class="text-center mb-4 text-3xl font-bold">Works of Function</h1>
+
+            <h1 class="lg:text-2xl text-lg font-semibold  mb-3">1) quizTimer function work.
+            </h1>
+            <p>Ans: If start quiz button is clicked then quizTimer function will be called and this function shows the time Countdown in quiz page. </p>
+            <h1 class="lg:text-2xl text-lg font-semibold  mb-3 mt-5">2) chooseQuiz function work.
+            </h1>
+            <p>Ans: This function will take given answer and index as parameter. Then it will check the answer with correct answers and then call the  displayAnswers function and pass the answers as parameter to show which answer is selected. </p>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
